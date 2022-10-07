@@ -122,14 +122,14 @@ async def alive_function(answers):
     )
 
     msg = f"""
-**[Uputt Robot ❤️](https://t.me/uputtsupport):**
+**[Uputt Robot 🐣](https://t.me/uputtsupport):**
 **MainBot:** `{bot_state}`
 **UserBot:** `{ubot_state}`
 **Python:** `{pyver.split()[0]}`
 **Pyrogram:** `{pyrover}`
 **MongoDB:** `{mongover}`
 **Platform:** `{sys.platform}`
-**Profiles:** [BOT](t.me/{BOT_USERNAME}) | [UBOT](t.me/uputraa)
+**Profiles:** [BOT](t.me/{BOT_USERNAME}) | [UBOT](t.me/iamuput)
 """
     answers.append(
         InlineQueryResultArticle(
