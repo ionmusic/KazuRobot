@@ -1,5 +1,5 @@
 {
-      "name": "Uputt Robot",
+      "name": "Kazu Robot",
       "description": "A Powerful Telegram group management bot with anime theme.",
       "keywords": [
          "telegram",
@@ -9,8 +9,8 @@
          "emikorobot"
       ],
     
-   "logo":    "https://telegra.ph/file/4a45195cf0900b8dd26f8.jpg",  
-   "repository": "https://github.com/iamuput/https://github.com/iamuput/UputRobot",
+   "logo":    "https://telegra.ph/file/05c7982e106962b905ef4.jpg",  
+   "repository": "https://github.com/ionmusic/https://github.com/ionmusic/KazuRobot",
    "addons": [
           {
          "options": {
@@ -63,12 +63,12 @@
       },
       "OWNER_USERNAME": {
          "description": "Your username without the @",
-         "value": "iamuput"
+         "value": "disinikazu"
       },
       "SUPPORT_CHAT": {
          "description": "Your Telegram support group chat username where your users will go and bother you with shit But be like: MyGroupChatUsernameBlah. If this ever points to masha support than consider you made an enemy.",
          "required": true,
-         "value": "uputtsupport"
+         "value": "kazusupportgrp"
       },
       "MONGO_DB_URI": {
          "description": "Required for database connections.",
