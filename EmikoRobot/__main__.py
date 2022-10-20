@@ -83,7 +83,7 @@ def get_readable_time(seconds: int) -> str:
 
 PM_START_TEXT = """
 *Hello {} !*
-✪ I'm an anime-theme management bot [✨](https://telegra.ph/file/11b5922a33de9968cedfe.jpg)
+✪ I'm Kazu management bot [✨](https://telegra.ph/file/05c7982e106962b905ef4.jpg)
 ────────────────────────
 × *Uptime:* `{}`
 × `{}` *users, across* `{}` *chats.*
@@ -113,7 +113,7 @@ Click on the button bellow to get description about specifics command."""
 
 
 DONATE_STRING = """Heya, glad to hear you want to donate!
- You can support the project by contacting @iamuput \
+ You can support the project by contacting @disinikazu \
  Supporting isnt always financial! \
  Those who cannot provide monetary support are welcome to help us develop the bot at ."""
 
@@ -428,8 +428,8 @@ def emiko_about_callback(update, context):
             reply_markup=InlineKeyboardMarkup(
                 [
                  [
-                    InlineKeyboardButton(text="Support", url="t.me/UputtSupport"),
-                    InlineKeyboardButton(text="Updates", url="https://t.me/Ohgitunih"),
+                    InlineKeyboardButton(text="Support", url="t.me/kazusupportgrp"),
+                    InlineKeyboardButton(text="Updates", url="https://t.me/punyaionnibos"),
                  ],
                  [
                     InlineKeyboardButton(text="Go Back", callback_data="emiko_"),
