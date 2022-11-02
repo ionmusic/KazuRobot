@@ -18,15 +18,15 @@ class Config(object):
     OWNER_ID = 1912667035  # If you dont know, run the bot and do /id in your private chat with it, also an integer
     OPENWEATHERMAP_ID = 22322
     OWNER_USERNAME = "Scotchers"
-    BOT_USERNAME = "UputtRobot"
-    SUPPORT_CHAT = "UputtSupport"  # Your own group for support, do not add the @
+    BOT_USERNAME = "Dark_musikbot"
+    SUPPORT_CHAT = "kazusupportgrp"  # Your own group for support, do not add the @
     JOIN_LOGGER = (
-        -1001608701614
+        -1001287188817
     )  # Prints any new group the bot is added to, prints just the name and ID.
     EVENT_LOGS = (
-        -1001608701614
+        -1001287188817
     )  # Prints information like gbans, sudo promotes, AI enabled disable states that may help in debugging and shit
-    ERROR_LOG = -1001657496255
+    ERROR_LOG = -1001287188817
 
     # RECOMMENDED
     SQLALCHEMY_DATABASE_URI = "something://somewhat:user@hosturl:port/databasename"  # needed for any database modules
@@ -81,7 +81,7 @@ class Config(object):
     CF_API_KEY = "jk"
     BL_CHATS = []  # List of groups that you want blacklisted.
     SESSION_STRING = "12342"
-    STRING_SESSION = "kontol"
+    STRING_SESSION = "asu"
     MONGO_PORT = 27017
     MONGO_DB = "Emiko"
 
