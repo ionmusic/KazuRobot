@@ -38,7 +38,7 @@ logging.getLogger("pyrogram").setLevel(logging.INFO)
 logging.getLogger('ptbcontrib.postgres_persistence.postgrespersistence').setLevel(logging.WARNING)
 
 LOGGER = logging.getLogger('[EmikoRobot]')
-LOGGER.info("Emiko is starting. | An Kennedy Project Parts. | Licensed under GPLv3.")
+LOGGER.info("Kazu is starting. | An Kazu Project Parts. | Licensed under GPLv3.")
 LOGGER.info("Not affiliated to other anime or Villain in any way whatsoever.")
 LOGGER.info("Project maintained by: github.com/ionmusic (t.me/disinikazu)")
 
